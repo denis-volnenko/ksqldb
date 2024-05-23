@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t volnenko/ksqldb:7.6.1 .
+docker build -t volnenko/ksqldb:6.2.10 .
 
