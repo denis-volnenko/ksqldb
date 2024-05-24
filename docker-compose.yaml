@@ -56,7 +56,7 @@ services:
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
 
   ksql:
-    image: volnenko/ksqldb:7.6.1
+    image: volnenko/ksqldb:6.2.10
     restart: unless-stopped
     environment:
       KSQL_BOOTSTRAP_SERVERS: kafka:9092
