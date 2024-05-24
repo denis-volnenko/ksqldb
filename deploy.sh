@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push volnenko/ksqldb:7.6.1
+docker push volnenko/ksqldb:6.2.10
